@@ -25,12 +25,17 @@ h1 {
 
 .inputs {
   width: inherit;
-  display: flex;
   flex-direction; column;
+  justify-content: center;
 }
 
 input {
-  margin-top:10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  margin: 5px 5px 5px 5px;
+  width: 400px;
 }
 
 .addOption {
@@ -49,7 +54,6 @@ input {
     box-shadow: 0 7px #3d5c5c;
 
   }
-
   .addOption2 {
     margin-top 10px;
     display: inline-block;
